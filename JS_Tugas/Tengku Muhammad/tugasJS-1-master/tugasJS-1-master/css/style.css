@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefbf6;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.container {
+  margin: 100px auto;
+  margin-top: 50px;
+  width: 70%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+tr th {
+  padding: 5px 15px;
+  background-color: bisque;
+  text-align: center;
+  font-weight: 900;
+}
+
+tr td {
+  padding: 5px 7px;
+  font-weight: 300;
+  text-align: start;
+}
